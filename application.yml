@@ -1,0 +1,13 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: cloud-gateway
+
+  # 这里是springcloud中的路由配置的其中一种，另一种见配置文件
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
